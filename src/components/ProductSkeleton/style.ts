@@ -9,6 +9,15 @@ export const ProductSkeletonContainer = styled('main', {
   width: '100%',
   maxWidth: 1180,
   margin: '0 auto',
+
+  '@media (max-width: 1242px)': {
+    padding: '0 1.5rem',
+  },
+
+  '@media (max-width: 768px)': {
+    gridTemplateColumns: '1fr',
+    gap: '2rem',
+  },
 })
 
 export const ImageSkeletonContainer = styled('div', {
@@ -16,6 +25,23 @@ export const ImageSkeletonContainer = styled('div', {
   maxWidth: 576,
   height: 656,
   borderRadius: 8,
+
+  '@media (max-width: 1520px)': {
+    height: 536,
+  },
+
+  '@media (max-width: 1000px)': {
+    maxWidth: 486,
+  },
+
+  '@media (max-width: 872px)': {
+    maxWidth: 436,
+  },
+
+  '@media (max-width: 768px)': {
+    height: 476,
+    margin: '0 auto',
+  },
 })
 
 export const ProductSkeletonDetails = styled('div', {
@@ -42,4 +68,8 @@ export const PriceSkeleton = styled('span', {
 
 export const ButtonSkeletonContainer = styled('div', {
   marginTop: 'auto',
+
+  '@media (max-width: 768px)': {
+    marginTop: '2rem',
+  },
 })
