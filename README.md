@@ -23,7 +23,7 @@ funcionalidades são:
 - Finalizar a compra integrando com a API do Stripe (pagamento)
 
 Toda a lógica relacionada com o Stripe foi feita utilizando a SDK do Stripe para Node.js. Nesse sentido, para comunicar a aplicação com a API do Stripe é necessário
-utilizar uma chave privada que não pode ser acessada publicamente. Por isso, toda essa lógica foi realizada pelo lado do servidor usando o recurso de SSR e SSG do Next.js,
+utilizar uma chave privada que não pode ser acessada no client-side. Por isso, toda essa lógica foi realizada pelo lado do servidor usando o recurso de SSR e SSG do Next.js,
 que permitiu, por exemplo, com que os produtos exibidos na tela inicial fossem gerados esticamente.
 
 Além disso, o checkout da compra foi feito utilizando a API Route do Next, visto que foi preciso criar uma sessão de checkout no Stripe e redirecionar o usuário para o
