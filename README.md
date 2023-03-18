@@ -1,11 +1,13 @@
 # Ignite Shop 🛍👕
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/88680118/226110418-d72c61a0-2350-4741-92fa-b0787ad23f0d.png" alt="" width="320" />
+  <img src="https://user-images.githubusercontent.com/88680118/226110418-d72c61a0-2350-4741-92fa-b0787ad23f0d.png" alt="Demonstração da página incial do projeto" width="320" />
   
-  <img src="https://user-images.githubusercontent.com/88680118/226110470-eb432124-4637-4ad7-ba53-47c658833a4a.png" alt="" width="320" />
+  <img src="https://user-images.githubusercontent.com/88680118/226110470-eb432124-4637-4ad7-ba53-47c658833a4a.png" alt="Demonstração da sacola de compras" width="320" />
   
-  <img src="https://user-images.githubusercontent.com/88680118/226110487-31ae5284-3e93-463c-8328-f478a0a359a6.png" alt="" width="320" />
+  <img src="https://user-images.githubusercontent.com/88680118/226110487-31ae5284-3e93-463c-8328-f478a0a359a6.png" alt="Demonstração da página do produto" width="320" />
+  
+  <img src="https://user-images.githubusercontent.com/88680118/226111136-3e48a66a-dcb2-4224-acd8-1c722c88ae24.png" alt="Demonstração da página de compra efetuada com sucesso" width="320" />
 </div>
 
 Esse projeto foi desenvolvido durante o módulo 4 da trilha de React.js do Ignite - bootcamp de especialização da [**Rocketseat**](https://github.com/rocketseat-education).
