@@ -55,6 +55,11 @@ export const ImageContainer = styled('div', {
   '@media (max-width: 768px)': {
     height: 476,
     margin: '0 auto',
+
+    img: {
+      width: '24rem',
+      height: '21.5rem',
+    },
   },
 })
 

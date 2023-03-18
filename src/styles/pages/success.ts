@@ -90,5 +90,9 @@ export const CircleContainerImage = styled('div', {
       width: '4.5rem',
       height: '4.5rem',
     },
+
+    '& + &': {
+      marginLeft: '-2.25rem',
+    },
   },
 })
