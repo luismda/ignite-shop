@@ -1,41 +1,34 @@
 # Ignite Shop 🛍👕
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/88680118/226110418-d72c61a0-2350-4741-92fa-b0787ad23f0d.png" alt="Demonstração da página incial do projeto" width="320" />
+  <img src="https://user-images.githubusercontent.com/88680118/226110418-d72c61a0-2350-4741-92fa-b0787ad23f0d.png" alt="Demo of home page of project" width="320" />
   
-  <img src="https://user-images.githubusercontent.com/88680118/226110470-eb432124-4637-4ad7-ba53-47c658833a4a.png" alt="Demonstração da sacola de compras" width="320" />
+  <img src="https://user-images.githubusercontent.com/88680118/226110470-eb432124-4637-4ad7-ba53-47c658833a4a.png" alt="Demo of shop bag" width="320" />
   
-  <img src="https://user-images.githubusercontent.com/88680118/226110487-31ae5284-3e93-463c-8328-f478a0a359a6.png" alt="Demonstração da página do produto" width="320" />
+  <img src="https://user-images.githubusercontent.com/88680118/226110487-31ae5284-3e93-463c-8328-f478a0a359a6.png" alt="Demo of specific product page" width="320" />
   
-  <img src="https://user-images.githubusercontent.com/88680118/226111136-3e48a66a-dcb2-4224-acd8-1c722c88ae24.png" alt="Demonstração da página de compra efetuada com sucesso" width="320" />
+  <img src="https://user-images.githubusercontent.com/88680118/226111136-3e48a66a-dcb2-4224-acd8-1c722c88ae24.png" alt="Demo of successful purchase page" width="320" />
 </div>
 
-Esse projeto foi desenvolvido durante o módulo 4 da trilha de React.js do Ignite - bootcamp de especialização da [**Rocketseat**](https://github.com/rocketseat-education).
-Nesse projeto, o objetivo principal foi conhecer o framework **Next.js** e seus principais recursos como o SSR e o SSG, além de outras funcionalidades como o next/link,
-next/image, dentre outras.
+This project was developed during the fourth module of **React.js** trail of **Ignite** - specialization bootcamp of [**Rocketseat**](https://github.com/rocketseat-education). In this project, the main objective was to get to know the **Next.js** framework and its main features such as the **SSR** and **SSG**, as well as other features such as `next/link`, `next/image`, among others.
 
-- 🎨 [**Acesse o layout no Figma**](https://www.figma.com/file/FxlDRKOmznBbTH8DsTgnZU/Ignite-Shop-2.0/duplicate?node-id=0-1)
-- 🚀 [**Teste a aplicação funcionando**](https://ignite-shop-luismda.vercel.app/)
+- 🎨 [**Figma**](https://www.figma.com/file/FxlDRKOmznBbTH8DsTgnZU/Ignite-Shop-2.0/duplicate?node-id=0-1)
+- 🚀 [**Test the application**](https://ignite-shop-luismda.vercel.app/)
 
-O **Ignite Shop** é um mini e-commerce de camisetas que utiliza a **API do Stripe** para buscar os produtos disponíveis e realizar o checkout da compra. As principais
-funcionalidades são:
+The **Ignite Shop** is a small shirt e-commerce that uses the **Stripe API** to fetch all available products and make purchase checkout. The main features:
 
-- Visualizar os produtos disponíveis para compra
-- Adicionar e remover produtos da sacola de compras
-- Finalizar a compra integrando com a API do Stripe (pagamento)
+- Visualize all available products to purchase
+- Add and remove products of shop bag
+- Complete the purchase by integrating with Stripe API (payment)
 
-Toda a lógica relacionada com o Stripe foi feita utilizando a SDK do Stripe para Node.js. Nesse sentido, para comunicar a aplicação com a API do Stripe é necessário
-utilizar uma chave privada que não pode ser acessada no client-side. Por isso, toda essa lógica foi realizada pelo lado do servidor usando o recurso de SSR e SSG do Next.js,
-que permitiu, por exemplo, com que os produtos exibidos na tela inicial fossem gerados esticamente.
+All Stripe-related logic was done using the Stripe SDK for Node.js. In this regard, communication between the application and the Stripe API is required via a private key that cannot be accessed on the client side. Therefore, all this logic was carried out by the server-side using Next.js SSR and SSG resource, which allowed, for example, the products displayed on the home screen to be statically generated.
 
-Além disso, o checkout da compra foi feito utilizando a API Route do Next, visto que foi preciso criar uma sessão de checkout no Stripe e redirecionar o usuário para o
-pagamento no próprio Stripe, e logo em seguida, redirecionar o usuário de volta para a aplicação exibindo a tela de sucesso.
+In addition, the checkout of the purchase was done using Next Route API, since it was necessary to create a checkout session in Stripe and redirect the user to the payment in Stripe itself, and then redirect the user
+back to the application, displaying the success screen.
 
-Nesse projeto, além de aprender diversas coisas sobre o Next.js, pude conhecer uma nova ferramenta de estilização CSS-in-JS que é o Stitches que, assim como o Styled Components,
-permite a criação de componentes estilizados, mas com maior facilidade para criar variações de estilo em um componente, tendo também uma sintaxe de objetos JavaScript. Ainda, nessa
-aplicação tive a oportunidade de utilizar o Radix UI para construção de diversos componentes acessíveis, como modal, toast messages e scroll view.
+In this project, in addition to learning several things about Next.js, I got to know a new CSS-in-JS styling tool called Stitches, which, like Styled Components, allows the creation of styled components, but with greater ease to create style variations in a component, also having a syntax of JavaScript objects. Yet, in this application I had the opportunity to use Radix UI to build several accessible components, such as modal, toast messages and scroll view.
 
-### 🛠🧰 Ferramentas e tecnologias utilizadas
+### 🛠🧰 Tools
 - TypeScript
 - React.js
 - React Hooks
